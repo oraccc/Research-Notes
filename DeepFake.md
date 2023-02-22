@@ -112,7 +112,7 @@
 
 `StyleGAN、StyleGAN2、PGGAN、DCGAN、ProGAN`
 
-[StyleGAN2](https://github.com/NVlabs/stylegan2)
+#### StyleGAN3
 
 
 
