@@ -72,7 +72,7 @@
 
 > Samples
 >
-> 
+> <center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/ffhq-1.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/ffhq-2.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/ffhq-3.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/ffhq-4.png" width="200"/></center>
 
 
 
