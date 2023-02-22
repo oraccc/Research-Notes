@@ -2,7 +2,7 @@
 
 ### GAN
 
-
+<img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/gan.png" width="650" >
 
 
 
@@ -123,7 +123,13 @@
 
 #### StyleGAN3
 
-<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-1.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-2.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-3.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-4.png" width="200"/></center>
+[Link](https://github.com/NVlabs/stylegan3)
+
+> Samples
+> 
+>  <center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-1.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-2.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-3.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-4.png" width="200"/></center>
+
+
 
 ### A Survey on Generative Adversarial Networks: Variants, Applications, and Training
 
