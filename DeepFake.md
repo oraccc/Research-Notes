@@ -1,14 +1,14 @@
-#### GAN-generated Faces Detection: A Survey and New Perspectives
+### GAN-generated Faces Detection: A Survey and New Perspectives
 
 > [arXiv](https://arxiv.org/abs/2202.07145) 2022
 
-![image-20230220134147164](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230220134147164.png)
+<img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fakeface-timeline.png" width="1050" >
 
 
 
-##### GAN Generation of Highly Realistic Faces
+#### GAN Generation of Highly Realistic Faces
 
-##### GAN-face Detection Methods
+#### GAN-face Detection Methods
 
 我们将现有的GAN人脸检测文献分为四类
 
@@ -70,7 +70,7 @@ CelebA
 
 
 
-#### A Survey on Generative Adversarial Networks: Variants, Applications, and Training
+### A Survey on Generative Adversarial Networks: Variants, Applications, and Training
 
 > [ACM Computing Surveys](https://dl.acm.org/toc/csur/2022/54/8) 2021
 
