@@ -1,4 +1,4 @@
-## Concept: DeepFake and GAN
+## :one:Concept: DeepFake and GAN
 
 “Deep Fakes”是一种流行的基于人工智能的图像合成技术。 它比传统的图像到图像转换更强大，因为它可以在没有给定配对训练数据的情况下生成图像。
 
@@ -6,7 +6,25 @@
 
 
 
-## Survey
+从视觉角度，deepfake一般可划分四类：**重现（reenactment）**、**替换（replacement）**、**编辑（editing）**、**合成（synthesis）**。
+
+尽管人脸编辑和合成研究火热，但重现和替换才是最大的隐患，它们可以让攻击者控制身份和欺骗。
+
+* 重现（reenactment）: 重现使用源身份Xs驱动目标身份Xt，使得Xt的**行为**和Xs一样，包括表情、嘴部、眼部、头部及躯干。
+
+  > 表情重现、嘴部重现、眼部重现、头部重现、 身体重现
+
+* 替换（replacement）：替换使用源身份Xs的内容替换目标身份 Xt，使得目标**身份**变成了源身份Xs。
+
+  > 转移、交换
+
+* 编辑（editing）：编辑是指添加、更改或删除目标身份的**属性**，比如，更换目标对象的发型、衣服、胡须、年龄、体重、颜值、眼镜和种族等属性。
+
+* 合成（synthesis）：合成是指在**没有目标身份作为基础**的情况下创建deepfake角色，类似直接用GAN或者其它生成模型生成人脸，没有明确的target。人脸和身体合成技术可以创建影视素材，生成电影和游戏角色。
+
+  
+
+## :two:Survey
 
 ### GAN-generated Faces Detection: A Survey and New Perspectives
 
@@ -56,7 +74,7 @@
 
 
 
-## Dataset
+## :three:Dataset
 
 ### Real Face
 
@@ -90,7 +108,7 @@
 >
 > <center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-1.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-2.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-3.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-4.jpg" width="200"/></center>
 
-##### GAN Face
+### GAN Face
 
 `StyleGAN、StyleGAN2、PGGAN、DCGAN、ProGAN`
 
