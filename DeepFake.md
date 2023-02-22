@@ -86,7 +86,9 @@
 - **202,599** 人脸图像
 - **5** 个地标位置，**40** 个二进制属性以及每张图片的注释。
 
-
+> Samples
+>
+> <center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-1.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-2.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-3.jpg" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/celeb-4.jpg" width="200"/></center>
 
 ##### GAN Face
 
