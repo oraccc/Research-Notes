@@ -1,4 +1,12 @@
-## :one:Concept: DeepFake and GAN
+## :one:Concept: GAN and DeepFake
+
+### GAN
+
+
+
+
+
+### Deep Fakes
 
 “Deep Fakes”是一种流行的基于人工智能的图像合成技术。 它比传统的图像到图像转换更强大，因为它可以在没有给定配对训练数据的情况下生成图像。
 
@@ -19,10 +27,11 @@
   > 转移、交换
 
 * `编辑（editing）`：编辑是指添加、更改或删除目标身份的**属性**，比如，更换目标对象的发型、衣服、胡须、年龄、体重、颜值、眼镜和种族等属性。
-
 * `合成（synthesis）`：合成是指在**没有目标身份作为基础**的情况下创建deepfake角色，类似直接用GAN或者其它生成模型生成人脸，没有明确的target。人脸和身体合成技术可以创建影视素材，生成电影和游戏角色。
 
-  
+
+
+
 
 ## :two:Survey
 
@@ -114,7 +123,7 @@
 
 #### StyleGAN3
 
-
+<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-1.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-2.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-3.png" width="200"/><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/stylegan3-4.png" width="200"/></center>
 
 ### A Survey on Generative Adversarial Networks: Variants, Applications, and Training
 
