@@ -1,3 +1,13 @@
+## Concept: DeepFake and GAN
+
+“Deep Fakes”是一种流行的基于人工智能的图像合成技术。 它比传统的图像到图像转换更强大，因为它可以在没有给定配对训练数据的情况下生成图像。
+
+ “Deep Fakes”的目标是从**现有图像集合中捕捉共同特征**，并找出一种方法使其他图像具有这些特征，例如形状和样式。 生成对抗网络 (GAN) 为我们提供了一种实施“Deep Fakes”的可用方法
+
+
+
+## Survey
+
 ### GAN-generated Faces Detection: A Survey and New Perspectives
 
 > [arXiv](https://arxiv.org/abs/2202.07145) 2022
@@ -44,15 +54,27 @@
   * 尽管已经开发了许多自动GAN人脸检测算法，但尚未充分研究识别和暴露GAN人脸的人类视觉性能。与图像识别等其他AI问题相比，GAN人脸检测对人眼来说是一个更具挑战性的问题。因此，研究人眼如何识别GAN人脸以及相关的社会影响和伦理问题非常重要。
   * 用于评估自动算法在检测GAN人脸方面的有效性的标准度量包括ROC分析和精确召回。虽然这些指标可以用于研究人类的感知表现，但它们并不直接适用于反映普通大众高度真实的GAN面孔的真实欺骗性。人类的视觉表现在很大程度上是有偏见的，如果有微弱但适当的提示（例如寻找正确的生理线索），人类识别假脸的能力会大大提高。 
 
-#### Dataset
 
-##### Real Face
 
-`FFHQ、CelebA、RAISE`
+## Dataset
 
-FFHQ(Flickr-Faces-HQ)
+### Real Face
 
-> **Flickr-Faces-HQ (FFHQ)** consists of 70,000 high-quality PNG images at 1024×1024 resolution and contains considerable variation in terms of age, ethnicity and image background. The images were crawled from Flickr, thus inheriting all the biases of that website, and automatically aligned and cropped using dlib. Only images under permissive licenses were collected. Various automatic filters were used to prune the set, and finally Amazon Mechanical Turk was used to remove the occasional statues, paintings, or photos of photos.
+#### FFHQ(Flickr-Faces-HQ)
+
+[Dataset Link](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq?select=00000.png)
+
+**Flickr-Faces-HQ (FFHQ)** 由 70,000 张分辨率为 1024×1024 的高质量 PNG 图像组成，在年龄、种族和图像背景方面包含相当大的差异。 
+
+图片是从 Flickr 抓取的，因此继承了该网站的所有Biases，并使用 dlib 自动对齐和裁剪。 
+
+仅收集许可许可下的图像。 使用各种自动过滤器来修剪集合，最后使用 Amazon Mechanical Turk 去除偶尔出现的雕像、绘画或照片。
+
+> Samples
+>
+> 
+
+
 
 CelebA
 
