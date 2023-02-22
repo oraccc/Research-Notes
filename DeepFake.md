@@ -76,13 +76,17 @@
 
 
 
-CelebA
+#### CelebA
 
-> **CelebFaces Attributes Dataset (CelebA)** is a large-scale face attributes dataset with more than **200K** celebrity images, each with **40** attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including
->
-> - **10,177** number of **identities**,
-> - **202,599** number of **face images**, and
-> - **5 landmark locations**, **40 binary attributes** annotations per image.
+[Dataset Link](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
+
+**CelebFaces Attributes Dataset (CelebA)** 是一个大规模的人脸属性数据集，拥有超过 **200K** 名人图像，每张都有 **40** 属性注释。 该数据集中的图像涵盖了大的姿势变化和背景杂乱。 CelebA 多样性大，数量大，注释丰富，包括
+
+- **10,177** 个身份
+- **202,599** 人脸图像
+- **5** 个地标位置，**40** 个二进制属性以及每张图片的注释。
+
+
 
 ##### GAN Face
 
