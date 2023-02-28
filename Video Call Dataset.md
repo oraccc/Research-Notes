@@ -20,15 +20,13 @@ Test: 9个视频（2个实际背景与7个虚拟背景）
 
 真实背景：
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213220712749.png" alt="image-20221213220712749" style="zoom:50%;" />
-
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213220727508.png" alt="image-20221213220727508" style="zoom:50%;" />
+<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/vcbg-1.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/vcbg-2.png" width="350"></center>
 
 虚拟背景：
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213220756589.png" alt="image-20221213220756589" style="zoom:50%;" />
+<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/vcbg-3.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/vcbg-4.png" width="350"></center>
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213220839905.png" alt="image-20221213220839905" style="zoom:50%;" />
+
 
 ---
 
@@ -50,27 +48,21 @@ TRACK1: Human-centric video matting
 
 样例，一个短的视频，再加上一些帧的划分：
 
-![image-20221213223204411](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213223204411.png)
+<img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-sample.png" width="650" >
+
+
 
 背景更加随意
 
 室外背景可以看出文字、建筑物、车辆甚至二维码等信息
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213223451523.png" alt="image-20221213223451523" style="zoom: 33%;" />
-
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213223533645.png" alt="image-20221213223533645" style="zoom:50%;" />
+<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-1.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-2.png" width="350"></center>
 
 
 
 室内场景可以看到背景的主要物品，例如超市的货架、柜子
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213223836345.png" alt="image-20221213223836345" style="zoom:50%;" />
-
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213223915992.png" alt="image-20221213223915992" style="zoom:50%;" />
-
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213224050192.png" alt="image-20221213224050192" style="zoom:50%;" />
-
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221213224233670.png" alt="image-20221213224233670" style="zoom:50%;" />
+<center class="half"> <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-3.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-4.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-5.png" width="350"><img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/fvc-6.png" width="350"></center>
 
 TRACK2: Human-centric video coding for action analysis
 
