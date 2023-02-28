@@ -23,14 +23,15 @@
   * - **特征距离：**指扰动后的MFCC距离和原始音频的MFCC距离
     - **输入距离：**指扰动后的原始音频waveform和原始音频waveform
 
-  ![image-20221027225001778](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221027225001778.png)
+  <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/wavefuzz.png" width = 450>
 
 * [Audio Privacy: Reducing Speech Intelligibility while Preserving Environmental Sounds](https://dl.acm.org/doi/pdf/10.1145/1459359.1459472)
+  
   * 该方法基于识别语音区域，并将这些区域的声道传递函数替换为预先录制的元音的传递函数，其中替换元音的标识独立于口语音节的标识。
   * 在这篇论文中描述了一种自动降低语音的可理解性的方法，同时保留韵律和非语音环境声音。通过可解性研究评估了我们的方法，结果表明在允许识别其他声音的同时，显著降低了语音的可解性。
-
+  
 * [A Privacy-Preserving Multipurpose Watermarking Scheme for Audio Authentication and Protection](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8455891)
 
   * 首先对加密音频进行加密域离散小波变换，得到加密系数。采用扩频方法将鲁棒水印和脆弱水印嵌入到不同的子带中。在此基础上，提出了从加密水印音频中提取鲁棒水印和脆弱水印的算法。通过实验验证了该方案的有效性和可行性。结果表明，该方案具有良好的鲁棒性、脆弱性和篡改定位性能。
 
-  <img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20221027230750968.png" alt="image-20221027230750968" style="zoom:67%;" />
+  <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/audio-watermark.png" width = 650>
