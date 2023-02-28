@@ -16,12 +16,12 @@
 
 * [WaveFuzz: A Clean-Label Poisoning Attack to Protect Your Voice](https://arxiv.org/pdf/2203.13497.pdf)
 
-  * **目标：**防止第三方音频模型从语音数据中构建涉及用户隐私的功能。
+  * **目标**: 防止第三方音频模型从语音数据中构建涉及用户隐私的功能。
 
-  * **方法：**从MFCC入手，最大化不受保护的(干净的)语音数据和受保护的(有毒的)语音数据之间的**特征距离（feature distance)**，并最小化它们的**输入距离 (input distance)。**
+  * **方法**: 从MFCC入手，最大化不受保护的(干净的)语音数据和受保护的(有毒的)语音数据之间的**特征距离（feature distance)**，并最小化它们的**输入距离 (input distance)。**
 
-  * - **特征距离：**指扰动后的MFCC距离和原始音频的MFCC距离
-    - **输入距离：**指扰动后的原始音频waveform和原始音频waveform
+  * - **特征距离**: 指扰动后的MFCC距离和原始音频的MFCC距离
+    - **输入距离**: 指扰动后的原始音频waveform和原始音频waveform
 
   <img src="https://raw.githubusercontent.com/oraccc/Research-Notes/master/imgs/wavefuzz.png" width = 450>
 
